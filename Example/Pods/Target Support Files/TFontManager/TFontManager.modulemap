@@ -1,0 +1,6 @@
+framework module TFontManager {
+  umbrella header "TFontManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

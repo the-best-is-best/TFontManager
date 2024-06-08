@@ -1,0 +1,16 @@
+PODS:
+  - TFontManager (0.1.0)
+
+DEPENDENCIES:
+  - TFontManager (from `../`)
+
+EXTERNAL SOURCES:
+  TFontManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TFontManager: c7a866525fc0f1fcbe2e4467c4e8cb83e601af6e
+
+PODFILE CHECKSUM: d289eaec3835be7e5f76be91243f910079ff12ad
+
+COCOAPODS: 1.15.2

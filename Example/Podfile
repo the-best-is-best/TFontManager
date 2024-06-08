@@ -1,0 +1,8 @@
+platform :ios, '14.0'
+
+use_frameworks!
+target 'TFontManager_Tests' do
+  pod 'TFontManager', :path => '../'
+  
+  
+end

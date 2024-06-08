@@ -1,0 +1,6 @@
+framework module Pods_TFontManager_Tests {
+  umbrella header "Pods-TFontManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
