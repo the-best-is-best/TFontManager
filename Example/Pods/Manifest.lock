@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TFontManager: c7a866525fc0f1fcbe2e4467c4e8cb83e601af6e
+  TFontManager: 0206adef1aea80f0ddd99e075b6c1013ec09eeeb
 
-PODFILE CHECKSUM: d289eaec3835be7e5f76be91243f910079ff12ad
+PODFILE CHECKSUM: dffabed3757a384a2d54dfb1ae51d89f30ca7ccb
 
 COCOAPODS: 1.15.2

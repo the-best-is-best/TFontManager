@@ -1,8 +1,13 @@
-platform :ios, '14.0'
-
 use_frameworks!
-target 'TFontManager_Tests' do
+
+platform :ios, '10.0'
+
+target 'TFontManager_Example' do
   pod 'TFontManager', :path => '../'
-  
-  
+
+  target 'TFontManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end

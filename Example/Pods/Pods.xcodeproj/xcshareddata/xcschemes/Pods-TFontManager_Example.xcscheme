@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84A96CD890AE23034612FF992398D2B1"
-               BuildableName = "TFontManager.framework"
-               BlueprintName = "TFontManager"
+               BlueprintIdentifier = "24A4267CF3D8779947FEACEEACB36A73"
+               BuildableName = "Pods_TFontManager_Example.framework"
+               BlueprintName = "Pods-TFontManager_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -50,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84A96CD890AE23034612FF992398D2B1"
-            BuildableName = "TFontManager.framework"
-            BlueprintName = "TFontManager"
+            BlueprintIdentifier = "24A4267CF3D8779947FEACEEACB36A73"
+            BuildableName = "Pods_TFontManager_Example.framework"
+            BlueprintName = "Pods-TFontManager_Example"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
