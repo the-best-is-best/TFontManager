@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Michelle Raouf' => 'michelle.raouf@outlook.com' }
   s.source           = { :git => 'https://github.com/the-best-is-best/TFontManager.git', :tag => s.version.to_s }
+  s.swift_version    = '5.5'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '14.0'
