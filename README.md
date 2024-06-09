@@ -12,17 +12,17 @@ class AppDelegate: NSObject, UIApplicationDelegate , UNUserNotificationCenterDel
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         
         TFontManager.shared.setFontMappings([
-            fontsFamiliy[0] : [
-                .regular: SharedRes.fonts().montserrat_regular.fontName,
-                .medium: SharedRes.fonts().montserrat_medium.fontName,
-                .bold: SharedRes.fonts().montserrat_bold.fontName
+            "montserrat": [
+                .regular: "Montserrat-Regular.ttf",
+                .medium: "Montserrat-Medium.ttf",
+                .bold: "Montserrat-Bold.ttf"
                 
             ],
-            fontsFamiliy[1]: [
-                .medium: SharedRes.fonts().inter_medium.fontName
+            "inter": [
+                .medium: "Inter-Medium.ttf"
             ],
-            fontsFamiliy[2]: [
-                .regular: SharedRes.fonts().tiny5_regular.fontName
+            "tiny5": [
+                .regular: "tiny5-Regular.ttf"
             ]
             
         ])
@@ -33,12 +33,6 @@ class AppDelegate: NSObject, UIApplicationDelegate , UNUserNotificationCenterDel
     }
 }
 
-let fontsFamiliy: [String] = [
-    "montserrat",
-    "inter",
-    "tiny5"
-]
-
  
  ```
  
@@ -47,10 +41,10 @@ let fontsFamiliy: [String] = [
   
     var body: some View {
      
-        if let regularFont = TFontManager.shared.customFont(family: fontsFamiliy[2], size: 16, weight: .regular) {
+        
             
-            Text("greet").font(regularFont)
-        }
+            Text("greet").tCustomFont(family: "Tiny5", size: 22, weight: .regular)
+        
     }
 }
 

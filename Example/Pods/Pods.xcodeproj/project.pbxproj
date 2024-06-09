@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1905B0D9A3B4E1FDA879C99BB3044719 /* TFontManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35B99A3E5B50E5C8EE1F970179F6FC5C /* TFontManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A3C3A5EE451E97EE5810337A376E446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		203E03C44AC794F4213D1815BDD17946 /* Pods-TFontManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4E5647D58A41AE2BB453D192A6DB41C /* Pods-TFontManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20B31D6A2F342BF065E80553EE8A554C /* TFontManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B1EB1D3C8F8BA8B320DE4FA20B302D /* TFontManager-dummy.m */; };
 		2C24AA69C3793F0E7C0E9A889DCCCB43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		31A93B6DD0B10C4F9417D936AD976003 /* Pods-TFontManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7ACC24B1F83780D8D653853358B4B88 /* Pods-TFontManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		418959312C14DCF60077D23F /* TFontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418959302C14DCF60077D23F /* TFontManager.swift */; };
-		418959352C14DD630077D23F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 418959342C14DD630077D23F /* README.md */; };
-		433900D1DE7740F182C23B3D36E9D9F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		39A24C10F3DB945DA3E6B8BB1BF49A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		4FB2F979ECE88ADB370A1E379744385C /* Pods-TFontManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAFD4360148F66518744C4D3CA717B7 /* Pods-TFontManager_Example-dummy.m */; };
-		82F55539D39A2B803D6B9A830C74472F /* TFontManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E64168BB7A563C2AAED589EB67C9DCB /* TFontManager-dummy.m */; };
+		5EBBFA180049D00C46BEDFA29505ACB4 /* TFontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07E40D55FB0CE28D7D36673F7DE6969 /* TFontManager.swift */; };
+		668A7E61939A11D00C73B141274498F2 /* ExtText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D9F3757C6E940E8B0B2FC7A7E9A182 /* ExtText.swift */; };
 		8FBD4C474F9F3E0DADE4E94F65581C8C /* Pods-TFontManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E1543F702E8796C0E9AD6B2E195DE3 /* Pods-TFontManager_Tests-dummy.m */; };
-		F3C908DCF25714598111D097D3287B3E /* TFontManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A352B95CF3077205087CA2DEAAE1A8 /* TFontManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FC95E1EF0526750CA0377706D900E87 /* PBXContainerItemProxy */ = {
+		9F3C7FB464EA699D4AFCE680BD8E0E6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 84A96CD890AE23034612FF992398D2B1;
 			remoteInfo = TFontManager;
 		};
-		B62905046D1D38F2EE58FEE4856721C3 /* PBXContainerItemProxy */ = {
+		C7A81481AA1BD3F6B0C912834C6A3803 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -38,37 +38,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02047A4CFB471EA078D2E2289DBAF6AA /* Pods_TFontManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFontManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02047A4CFB471EA078D2E2289DBAF6AA /* Pods-TFontManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TFontManager_Tests"; path = Pods_TFontManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07AA24FEB527CF4F3F7996B1437CD525 /* Pods-TFontManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFontManager_Example.modulemap"; sourceTree = "<group>"; };
-		0D7B3855DA30E5F8129E1EA1BA5F524E /* TFontManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TFontManager-Info.plist"; sourceTree = "<group>"; };
-		0E64168BB7A563C2AAED589EB67C9DCB /* TFontManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFontManager-dummy.m"; sourceTree = "<group>"; };
-		265A5EBD6DDAA22A3AF6F5C95773C7C6 /* TFontManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TFontManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		355F683187E440FF820C7F6A8D02E614 /* Pods-TFontManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFontManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		418959302C14DCF60077D23F /* TFontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TFontManager.swift; path = TFontManager/Classes/TFontManager.swift; sourceTree = "<group>"; };
-		418959342C14DD630077D23F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		35B99A3E5B50E5C8EE1F970179F6FC5C /* TFontManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFontManager-umbrella.h"; sourceTree = "<group>"; };
+		369A6BCF1AE71C090533884075BCE894 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		38A9CD5B6DB0DC6E85587FE8587FB7AB /* TFontManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TFontManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D307A0BCDF08088B3AD3F6BC14B64AB /* Pods-TFontManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TFontManager_Tests.modulemap"; sourceTree = "<group>"; };
 		6EAFD4360148F66518744C4D3CA717B7 /* Pods-TFontManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFontManager_Example-dummy.m"; sourceTree = "<group>"; };
+		6ED46B6F196207862AD02F44DA7AF976 /* TFontManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFontManager.release.xcconfig; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		78A352B95CF3077205087CA2DEAAE1A8 /* TFontManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFontManager-umbrella.h"; sourceTree = "<group>"; };
+		730ED7D05F9DFF85445003DC2D6F4E5B /* TFontManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFontManager-prefix.pch"; sourceTree = "<group>"; };
 		7E12CC72C92C97CB7679D54FFBE12EDD /* Pods-TFontManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFontManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		82353F5D524AD222D54FD627F5E7D77A /* Pods-TFontManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFontManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		82BD59FC164AB146FD10F28D1FB8250C /* Pods-TFontManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFontManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		83F64FE096DDFE64805C0F3FF4EE25C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		8BDA729217B280C90C073C6D13FD92C1 /* Pods_TFontManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFontManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BDA729217B280C90C073C6D13FD92C1 /* Pods-TFontManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TFontManager_Example"; path = Pods_TFontManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C780CB76AD2D2A8C690BEBA4B50765C /* Pods-TFontManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFontManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9A7E2C01C310F319A1DC99D55D812435 /* TFontManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TFontManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3FAC5E6F67459A257306BB544B1D4C0 /* TFontManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TFontManager.modulemap; sourceTree = "<group>"; };
+		97F1460886F2886C1C4BEB2C59422023 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9A7E2C01C310F319A1DC99D55D812435 /* TFontManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TFontManager; path = TFontManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6CA0BC55A6C9B78A7934B2A0A603B4D /* TFontManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TFontManager.modulemap; sourceTree = "<group>"; };
 		A71B4EC59ADCCF9671BE82888C701BB2 /* Pods-TFontManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFontManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A977B26527D7AF0B2CD6D317650B2F46 /* Pods-TFontManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFontManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B287D0D006B4B1CFCA18B8919F733426 /* TFontManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFontManager.release.xcconfig; sourceTree = "<group>"; };
-		C77B1E1B3A183225C16B0F1DC4FAEC25 /* TFontManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFontManager.debug.xcconfig; sourceTree = "<group>"; };
-		C78E8360B0AF0CC255058C4FA8E42833 /* TFontManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFontManager-prefix.pch"; sourceTree = "<group>"; };
+		B0AD404A320D1EE8333D7E16D37DA7EC /* TFontManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TFontManager-Info.plist"; sourceTree = "<group>"; };
+		C07E40D55FB0CE28D7D36673F7DE6969 /* TFontManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TFontManager.swift; path = TFontManager/Classes/TFontManager.swift; sourceTree = "<group>"; };
 		CC85BEE0086F0D3F121BA1EC0D3DB060 /* Pods-TFontManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFontManager_Example-Info.plist"; sourceTree = "<group>"; };
 		D037D5F34FBAF241DEA1A10CCF2F2CF7 /* Pods-TFontManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFontManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D7ACC24B1F83780D8D653853358B4B88 /* Pods-TFontManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFontManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DE86DC68354DEECCA218CB380A296759 /* TFontManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFontManager.debug.xcconfig; sourceTree = "<group>"; };
+		E0D9F3757C6E940E8B0B2FC7A7E9A182 /* ExtText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtText.swift; path = TFontManager/Classes/ExtText.swift; sourceTree = "<group>"; };
 		F0C59990EB7EF0A05F483097D957243F /* Pods-TFontManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFontManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		F4E5647D58A41AE2BB453D192A6DB41C /* Pods-TFontManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFontManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		F6B1EB1D3C8F8BA8B320DE4FA20B302D /* TFontManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFontManager-dummy.m"; sourceTree = "<group>"; };
 		F6E1543F702E8796C0E9AD6B2E195DE3 /* Pods-TFontManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFontManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		FE00116572B12ED7885F8005500FD286 /* Pods-TFontManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFontManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,25 +91,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1A14B3829ADE089C64AF8084FEA0760 /* Frameworks */ = {
+		AE0C5EECE71F67D05868D31BCC6D7B97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				433900D1DE7740F182C23B3D36E9D9F5 /* Foundation.framework in Frameworks */,
+				39A24C10F3DB945DA3E6B8BB1BF49A26 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		115E9DBCA59DBCAD22D6719619453147 /* Pod */ = {
+		0CC145FA9865A7B529A597B861EFF1BD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				418959342C14DD630077D23F /* README.md */,
-				83F64FE096DDFE64805C0F3FF4EE25C8 /* LICENSE */,
-				265A5EBD6DDAA22A3AF6F5C95773C7C6 /* TFontManager.podspec */,
+				369A6BCF1AE71C090533884075BCE894 /* LICENSE */,
+				97F1460886F2886C1C4BEB2C59422023 /* README.md */,
+				38A9CD5B6DB0DC6E85587FE8587FB7AB /* TFontManager.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		1E8481112CFA35ED302A498EAD6F3581 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA4E63183E9BF9D520C61E6A9938F27B /* TFontManager */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		23D1D1F7F90FFFA82E004CAB6040431A /* Targets Support Files */ = {
@@ -144,27 +153,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8A1E85C53843E7F1F2E762DDF7AEC553 /* Support Files */ = {
+		BA4E63183E9BF9D520C61E6A9938F27B /* TFontManager */ = {
 			isa = PBXGroup;
 			children = (
-				A3FAC5E6F67459A257306BB544B1D4C0 /* TFontManager.modulemap */,
-				0E64168BB7A563C2AAED589EB67C9DCB /* TFontManager-dummy.m */,
-				0D7B3855DA30E5F8129E1EA1BA5F524E /* TFontManager-Info.plist */,
-				C78E8360B0AF0CC255058C4FA8E42833 /* TFontManager-prefix.pch */,
-				78A352B95CF3077205087CA2DEAAE1A8 /* TFontManager-umbrella.h */,
-				C77B1E1B3A183225C16B0F1DC4FAEC25 /* TFontManager.debug.xcconfig */,
-				B287D0D006B4B1CFCA18B8919F733426 /* TFontManager.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TFontManager";
-			sourceTree = "<group>";
-		};
-		B929D50C81AAECF93827A0059A39C305 /* TFontManager */ = {
-			isa = PBXGroup;
-			children = (
-				418959302C14DCF60077D23F /* TFontManager.swift */,
-				115E9DBCA59DBCAD22D6719619453147 /* Pod */,
-				8A1E85C53843E7F1F2E762DDF7AEC553 /* Support Files */,
+				E0D9F3757C6E940E8B0B2FC7A7E9A182 /* ExtText.swift */,
+				C07E40D55FB0CE28D7D36673F7DE6969 /* TFontManager.swift */,
+				0CC145FA9865A7B529A597B861EFF1BD /* Pod */,
+				E722EFC27CB0B9FC7BD70940F4DB68A2 /* Support Files */,
 			);
 			name = TFontManager;
 			path = ../..;
@@ -173,9 +168,9 @@
 		CDAC15081E381B822FF8D15A059C8028 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BDA729217B280C90C073C6D13FD92C1 /* Pods_TFontManager_Example.framework */,
-				02047A4CFB471EA078D2E2289DBAF6AA /* Pods_TFontManager_Tests.framework */,
-				9A7E2C01C310F319A1DC99D55D812435 /* TFontManager.framework */,
+				8BDA729217B280C90C073C6D13FD92C1 /* Pods-TFontManager_Example */,
+				02047A4CFB471EA078D2E2289DBAF6AA /* Pods-TFontManager_Tests */,
+				9A7E2C01C310F319A1DC99D55D812435 /* TFontManager */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E8740A7FCCBCA085A4B316B8332F08B3 /* Development Pods */,
+				1E8481112CFA35ED302A498EAD6F3581 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				CDAC15081E381B822FF8D15A059C8028 /* Products */,
 				23D1D1F7F90FFFA82E004CAB6040431A /* Targets Support Files */,
@@ -216,12 +211,19 @@
 			path = "Target Support Files/Pods-TFontManager_Example";
 			sourceTree = "<group>";
 		};
-		E8740A7FCCBCA085A4B316B8332F08B3 /* Development Pods */ = {
+		E722EFC27CB0B9FC7BD70940F4DB68A2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B929D50C81AAECF93827A0059A39C305 /* TFontManager */,
+				A6CA0BC55A6C9B78A7934B2A0A603B4D /* TFontManager.modulemap */,
+				F6B1EB1D3C8F8BA8B320DE4FA20B302D /* TFontManager-dummy.m */,
+				B0AD404A320D1EE8333D7E16D37DA7EC /* TFontManager-Info.plist */,
+				730ED7D05F9DFF85445003DC2D6F4E5B /* TFontManager-prefix.pch */,
+				35B99A3E5B50E5C8EE1F970179F6FC5C /* TFontManager-umbrella.h */,
+				DE86DC68354DEECCA218CB380A296759 /* TFontManager.debug.xcconfig */,
+				6ED46B6F196207862AD02F44DA7AF976 /* TFontManager.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TFontManager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,11 +237,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B96B280FE39BEE51C372164115AE72F /* Headers */ = {
+		91F0039D5163D4CE6C84A1390BEEA286 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3C908DCF25714598111D097D3287B3E /* TFontManager-umbrella.h in Headers */,
+				1905B0D9A3B4E1FDA879C99BB3044719 /* TFontManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,21 +268,21 @@
 			buildRules = (
 			);
 			dependencies = (
-				28045E11895041AFA972F30CE1B8E581 /* PBXTargetDependency */,
+				36534D860D24460046921A52935C072B /* PBXTargetDependency */,
 			);
 			name = "Pods-TFontManager_Example";
 			productName = Pods_TFontManager_Example;
-			productReference = 8BDA729217B280C90C073C6D13FD92C1 /* Pods_TFontManager_Example.framework */;
+			productReference = 8BDA729217B280C90C073C6D13FD92C1 /* Pods-TFontManager_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		84A96CD890AE23034612FF992398D2B1 /* TFontManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD6F5161EE4F7BDF452AAAC180849155 /* Build configuration list for PBXNativeTarget "TFontManager" */;
+			buildConfigurationList = 1D9EE605029B9A4A74A5E90AB7AF8D66 /* Build configuration list for PBXNativeTarget "TFontManager" */;
 			buildPhases = (
-				8B96B280FE39BEE51C372164115AE72F /* Headers */,
-				970A1D8B39B21149EC3784AC284B91B6 /* Sources */,
-				A1A14B3829ADE089C64AF8084FEA0760 /* Frameworks */,
-				E56E4638515E0A8E681E3AE88FDF7CB7 /* Resources */,
+				91F0039D5163D4CE6C84A1390BEEA286 /* Headers */,
+				DDBFD4F89A6119431866D2FA4EB8ECD3 /* Sources */,
+				AE0C5EECE71F67D05868D31BCC6D7B97 /* Frameworks */,
+				6651D6861A28BE3B55B877B56DF2FDA4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -288,7 +290,7 @@
 			);
 			name = TFontManager;
 			productName = TFontManager;
-			productReference = 9A7E2C01C310F319A1DC99D55D812435 /* TFontManager.framework */;
+			productReference = 9A7E2C01C310F319A1DC99D55D812435 /* TFontManager */;
 			productType = "com.apple.product-type.framework";
 		};
 		D42333EE0D99FADEDA98B84AA4354262 /* Pods-TFontManager_Tests */ = {
@@ -303,11 +305,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				5C9EA8FC4A7BA3579CFC227BCD24A1A9 /* PBXTargetDependency */,
+				0E3C10A912417B9791DC682AB6A4B605 /* PBXTargetDependency */,
 			);
 			name = "Pods-TFontManager_Tests";
 			productName = Pods_TFontManager_Tests;
-			productReference = 02047A4CFB471EA078D2E2289DBAF6AA /* Pods_TFontManager_Tests.framework */;
+			productReference = 02047A4CFB471EA078D2E2289DBAF6AA /* Pods-TFontManager_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -318,11 +320,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-					84A96CD890AE23034612FF992398D2B1 = {
-						LastSwiftMigration = 1540;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -352,11 +349,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E56E4638515E0A8E681E3AE88FDF7CB7 /* Resources */ = {
+		6651D6861A28BE3B55B877B56DF2FDA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418959352C14DD630077D23F /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,12 +374,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		970A1D8B39B21149EC3784AC284B91B6 /* Sources */ = {
+		DDBFD4F89A6119431866D2FA4EB8ECD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F55539D39A2B803D6B9A830C74472F /* TFontManager-dummy.m in Sources */,
-				418959312C14DCF60077D23F /* TFontManager.swift in Sources */,
+				668A7E61939A11D00C73B141274498F2 /* ExtText.swift in Sources */,
+				5EBBFA180049D00C46BEDFA29505ACB4 /* TFontManager.swift in Sources */,
+				20B31D6A2F342BF065E80553EE8A554C /* TFontManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,26 +395,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		28045E11895041AFA972F30CE1B8E581 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TFontManager;
-			target = 84A96CD890AE23034612FF992398D2B1 /* TFontManager */;
-			targetProxy = 0FC95E1EF0526750CA0377706D900E87 /* PBXContainerItemProxy */;
-		};
-		5C9EA8FC4A7BA3579CFC227BCD24A1A9 /* PBXTargetDependency */ = {
+		0E3C10A912417B9791DC682AB6A4B605 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TFontManager_Example";
 			target = 24A4267CF3D8779947FEACEEACB36A73 /* Pods-TFontManager_Example */;
-			targetProxy = B62905046D1D38F2EE58FEE4856721C3 /* PBXContainerItemProxy */;
+			targetProxy = C7A81481AA1BD3F6B0C912834C6A3803 /* PBXContainerItemProxy */;
+		};
+		36534D860D24460046921A52935C072B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TFontManager;
+			target = 84A96CD890AE23034612FF992398D2B1 /* TFontManager */;
+			targetProxy = 9F3C7FB464EA699D4AFCE680BD8E0E6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2F99753ACD29172130D76A43898F7D2C /* Release */ = {
+		2BA6AAB3FB1EBABEDED2E2DAC3EF5A61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82353F5D524AD222D54FD627F5E7D77A /* Pods-TFontManager_Tests.release.xcconfig */;
+			baseConfigurationReference = 82BD59FC164AB146FD10F28D1FB8250C /* Pods-TFontManager_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -429,7 +427,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TFontManager_Tests/Pods-TFontManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TFontManager_Tests/Pods-TFontManager_Tests.modulemap";
@@ -441,17 +439,50 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		48F6ED778980BAEE9907CE60807B8563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED46B6F196207862AD02F44DA7AF976 /* TFontManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TFontManager/TFontManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFontManager/TFontManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TFontManager/TFontManager.modulemap";
+				PRODUCT_MODULE_NAME = TFontManager;
+				PRODUCT_NAME = TFontManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		781D024892FC23E5F86A6B8F7F1F9EDB /* Release */ = {
+		772436DEC72BEA7E5DD06B0B4CD88B0C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE00116572B12ED7885F8005500FD286 /* Pods-TFontManager_Example.release.xcconfig */;
+			baseConfigurationReference = 7E12CC72C92C97CB7679D54FFBE12EDD /* Pods-TFontManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -463,7 +494,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TFontManager_Example/Pods-TFontManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TFontManager_Example/Pods-TFontManager_Example.modulemap";
@@ -475,13 +506,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		77E26E6F0D5CF867ED8C16163FCA62E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -531,22 +561,24 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		BDFA03B52B40A2C0FC4898689F68B705 /* Debug */ = {
+		7C1D3B63239B89579CCD9A73A607D951 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C77B1E1B3A183225C16B0F1DC4FAEC25 /* TFontManager.debug.xcconfig */;
+			baseConfigurationReference = 82353F5D524AD222D54FD627F5E7D77A /* Pods-TFontManager_Tests.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -556,51 +588,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TFontManager/TFontManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TFontManager/TFontManager-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TFontManager_Tests/Pods-TFontManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TFontManager/TFontManager.modulemap";
-				PRODUCT_MODULE_NAME = TFontManager;
-				PRODUCT_NAME = TFontManager;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFontManager_Tests/Pods-TFontManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C60653BE819065653A2CAEB7E18D7594 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B287D0D006B4B1CFCA18B8919F733426 /* TFontManager.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TFontManager/TFontManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TFontManager/TFontManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TFontManager/TFontManager.modulemap";
-				PRODUCT_MODULE_NAME = TFontManager;
-				PRODUCT_NAME = TFontManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -608,7 +608,7 @@
 			};
 			name = Release;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		B9DD943D6C18BAB1F4224FFC1B711A43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -661,7 +661,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -674,11 +674,11 @@
 			};
 			name = Debug;
 		};
-		E735AC53153F27FE5A1B948209E43F34 /* Debug */ = {
+		E3B64A83E675AFD054EFC20222D74B36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82BD59FC164AB146FD10F28D1FB8250C /* Pods-TFontManager_Tests.debug.xcconfig */;
+			baseConfigurationReference = DE86DC68354DEECCA218CB380A296759 /* TFontManager.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -688,30 +688,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TFontManager_Tests/Pods-TFontManager_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TFontManager/TFontManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFontManager/TFontManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TFontManager_Tests/Pods-TFontManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/TFontManager/TFontManager.modulemap";
+				PRODUCT_MODULE_NAME = TFontManager;
+				PRODUCT_NAME = TFontManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F45D1043DAACFADF39811C102CEB852E /* Debug */ = {
+		EFB10322570AC11908C45EA8A3D75C6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E12CC72C92C97CB7679D54FFBE12EDD /* Pods-TFontManager_Example.debug.xcconfig */;
+			baseConfigurationReference = FE00116572B12ED7885F8005500FD286 /* Pods-TFontManager_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -723,7 +723,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-TFontManager_Example/Pods-TFontManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-TFontManager_Example/Pods-TFontManager_Example.modulemap";
@@ -735,19 +735,29 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1D9EE605029B9A4A74A5E90AB7AF8D66 /* Build configuration list for PBXNativeTarget "TFontManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B64A83E675AFD054EFC20222D74B36 /* Debug */,
+				48F6ED778980BAEE9907CE60807B8563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				B9DD943D6C18BAB1F4224FFC1B711A43 /* Debug */,
+				77E26E6F0D5CF867ED8C16163FCA62E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,8 +765,8 @@
 		567AE9E23C839DA16A0689B336E64426 /* Build configuration list for PBXNativeTarget "Pods-TFontManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E735AC53153F27FE5A1B948209E43F34 /* Debug */,
-				2F99753ACD29172130D76A43898F7D2C /* Release */,
+				2BA6AAB3FB1EBABEDED2E2DAC3EF5A61 /* Debug */,
+				7C1D3B63239B89579CCD9A73A607D951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -764,17 +774,8 @@
 		DD5A5F9FF2AE1157D4BCF720A8E97D39 /* Build configuration list for PBXNativeTarget "Pods-TFontManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F45D1043DAACFADF39811C102CEB852E /* Debug */,
-				781D024892FC23E5F86A6B8F7F1F9EDB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD6F5161EE4F7BDF452AAAC180849155 /* Build configuration list for PBXNativeTarget "TFontManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BDFA03B52B40A2C0FC4898689F68B705 /* Debug */,
-				C60653BE819065653A2CAEB7E18D7594 /* Release */,
+				772436DEC72BEA7E5DD06B0B4CD88B0C /* Debug */,
+				EFB10322570AC11908C45EA8A3D75C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

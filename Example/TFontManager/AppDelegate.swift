@@ -7,15 +7,24 @@
 //
 
 import SwiftUI
+import TFontManager
 
-@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        TFontManager.shared.setFontMappings([
+            "Tiny5" : [
+                .regular: "Tiny5-Regular.ttf"
+                ],
+            "EBGaramond": [
+                .regular: "EBGaramond-Regular.ttf",
+                .semibold: "EBGaramond-SemiBold.ttf"
+              ]
+            ]
+        )
         return true
     }
 
@@ -44,3 +53,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+//let fontsFamiliy: String = "Tiny5"

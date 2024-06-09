@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4196F2FB2C16175B00C44815 /* Tiny5-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4196F2FA2C16175B00C44815 /* Tiny5-Regular.ttf */; };
+		4196F2FD2C1617F900C44815 /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2FC2C1617F900C44815 /* iOSApp.swift */; };
+		4196F2FF2C16184300C44815 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2FE2C16184300C44815 /* ContentView.swift */; };
+		4196F3092C1621C300C44815 /* EBGaramond-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4196F3072C1621C300C44815 /* EBGaramond-SemiBold.ttf */; };
+		4196F30A2C1621C300C44815 /* EBGaramond-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4196F3082C1621C300C44815 /* EBGaramond-Regular.ttf */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -27,6 +32,11 @@
 /* Begin PBXFileReference section */
 		09150947E2F56A3073FF229A /* Pods-TFontManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFontManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TFontManager_Tests/Pods-TFontManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		278E110BDB8389C127EC65A3 /* Pods_TFontManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFontManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4196F2FA2C16175B00C44815 /* Tiny5-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiny5-Regular.ttf"; sourceTree = "<group>"; };
+		4196F2FC2C1617F900C44815 /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		4196F2FE2C16184300C44815 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4196F3072C1621C300C44815 /* EBGaramond-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-SemiBold.ttf"; sourceTree = "<group>"; };
+		4196F3082C1621C300C44815 /* EBGaramond-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EBGaramond-Regular.ttf"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TFontManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFontManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +49,7 @@
 		7C0763CE0E98FCA2F328B611 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7E4DE3E292E66FF0B4108C42 /* Pods-TFontManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFontManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-TFontManager_Example/Pods-TFontManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		90D24A3C15CAD32B8CC79F6C /* Pods-TFontManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TFontManager_Example.release.xcconfig"; path = "Target Support Files/Pods-TFontManager_Example/Pods-TFontManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AD0F7244250AD588CA0D0071 /* TFontManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TFontManager.podspec; path = ../TFontManager.podspec; sourceTree = "<group>"; };
+		AD0F7244250AD588CA0D0071 /* TFontManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TFontManager.podspec; path = ../TFontManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F1FA8C1887B2BC7478BE9B1B /* Pods_TFontManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TFontManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -108,6 +118,11 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				4196F2FC2C1617F900C44815 /* iOSApp.swift */,
+				4196F2FE2C16184300C44815 /* ContentView.swift */,
+				4196F2FA2C16175B00C44815 /* Tiny5-Regular.ttf */,
+				4196F3082C1621C300C44815 /* EBGaramond-Regular.ttf */,
+				4196F3072C1621C300C44815 /* EBGaramond-SemiBold.ttf */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -237,6 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				4196F30A2C1621C300C44815 /* EBGaramond-Regular.ttf in Resources */,
+				4196F3092C1621C300C44815 /* EBGaramond-SemiBold.ttf in Resources */,
+				4196F2FB2C16175B00C44815 /* Tiny5-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				4196F2FD2C1617F900C44815 /* iOSApp.swift in Sources */,
+				4196F2FF2C16184300C44815 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

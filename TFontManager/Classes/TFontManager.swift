@@ -15,7 +15,7 @@ public class TFontManager {
     
     }
     
-    private var fontFamilies: [String: [Font.Weight: String]] = [:]
+    private  var fontFamilies: [String: [Font.Weight: String]] = [:]
     private let accessQueue = DispatchQueue(label: "org.cocoapods.TFontManager", attributes: .concurrent)
      
     // Method to set font mappings
@@ -24,7 +24,7 @@ public class TFontManager {
            for (family, weights) in mappings {
                var updatedWeights: [Font.Weight: String] = [:]
                for (weight, fontName) in weights {
-                   let updatedFontName = fontName.replacingOccurrences(of: ".ttf", with: "")
+                   let updatedFontName = (fontName as NSString).deletingPathExtension
                    updatedWeights[weight] = updatedFontName
                }
                updatedMappings[family] = updatedWeights
@@ -36,7 +36,7 @@ public class TFontManager {
        }
         
         // Method to get custom font with specific weight for a given font family
-        public func customFont(family: String, size: CGFloat, weight: Font.Weight) -> Font? {
+        func customFont(family: String, size: CGFloat, weight: Font.Weight) -> Font? {
             var fontName: String?
          
             accessQueue.sync {
